@@ -8,53 +8,38 @@ import 'swiper/css/pagination'
 
 const clients = [
   {
-    name: 'Tech Solutions Inc',
+    name: 'Akkad Bkkad',
     project: 'E-commerce Platform Redesign',
-    website: 'https://example.com',
+    website: 'https://akkadbkkad.com',
     tags: ['Web Development', 'UI/UX'],
     gradient: 'from-teal-400 to-cyan-500',
-    icon: '💻',
+    icon: 'https://akkadbkkad.com/cdn/shop/files/LogoAkkadBkkad.png?height=70&v=1751635536',
   },
   {
-    name: 'Digital Agency Pro',
-    project: 'Corporate Website',
-    website: 'https://example.com',
+    name: 'Get Convertor',
+    project: 'The Developer Productivity Platform',
+    website: 'https://getconvertor.com/',
     tags: ['Web Development', 'CMS'],
     gradient: 'from-emerald-400 to-teal-500',
-    icon: '🚀',
+    icon: 'https://getconvertor.com/wp-content/uploads/2025/11/Gemini_Generated_Image_a8n85a8n85a8n85a-removebg-preview.png',
   },
   {
-    name: 'Innovation Hub',
+    name: 'Swayamwhere',
     project: 'SaaS Platform',
-    website: 'https://example.com',
+    website: 'https://swayamwhere.com',
     tags: ['Web App', 'API'],
     gradient: 'from-cyan-400 to-blue-500',
-    icon: '⚡',
+    icon: 'https://lh3.googleusercontent.com/d/13FUBcznIgMY_nbk7WMYcabkggin5YUTF',
   },
   {
-    name: 'Brand Solutions Ltd',
-    project: 'Complete Rebranding',
-    website: 'https://example.com',
-    tags: ['Branding', 'Design'],
-    gradient: 'from-purple-400 to-pink-500',
-    icon: '🎨',
+    name: 'Netvoks',
+    project: 'SaaS Platform',
+    website: 'https://netvoks.com',
+    tags: ['Web App', 'API'],
+    gradient: 'from-cyan-400 to-blue-500',
+    icon: 'https://netvoks.com/assets/netvoks-logo.png',
   },
-  {
-    name: 'Mobile First Co',
-    project: 'Mobile Shopping App',
-    website: 'https://example.com',
-    tags: ['App Development', 'iOS'],
-    gradient: 'from-blue-400 to-indigo-500',
-    icon: '📱',
-  },
-  {
-    name: 'Retail Solutions',
-    project: 'Multi-vendor Marketplace',
-    website: 'https://example.com',
-    tags: ['E-commerce', 'Mobile'],
-    gradient: 'from-orange-400 to-red-500',
-    icon: '🛒',
-  },
+  
 ]
 
 export default function ClientsCarousel() {
@@ -113,7 +98,8 @@ export default function ClientsCarousel() {
               >
                 <div className={`relative h-48 overflow-hidden bg-gradient-to-br ${client.gradient}`}>
                   <div className="absolute inset-0 flex items-center justify-center">
-                    <span className="text-8xl opacity-30">{client.icon}</span>
+                    <img src={client.icon}></img>
+                    {/* <span className="text-8xl opacity-30">{client.icon}</span> */}
                   </div>
                   <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
                 </div>

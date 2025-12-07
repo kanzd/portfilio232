@@ -6,11 +6,11 @@ export default function Footer() {
           <div>
             <div className="flex items-baseline gap-2 mb-4">
               <span className="font-poppins text-3xl font-extrabold gradient-text">
-                ABC
+                CHAI MADAM
               </span>
-              <span className="text-xs font-semibold text-gray-400 uppercase tracking-wider">
+              {/* <span className="text-xs font-semibold text-gray-400 uppercase tracking-wider">
                 Pvt Ltd
-              </span>
+              </span> */}
             </div>
             <p className="text-gray-400 leading-relaxed">
               Transforming ideas into digital excellence through innovative web development, 

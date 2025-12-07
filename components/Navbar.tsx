@@ -37,11 +37,11 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-baseline gap-2">
             <span className="font-poppins text-3xl font-extrabold gradient-text">
-              ABC
+              CHAI MADAM
             </span>
-            <span className="text-xs font-semibold text-gray-500 uppercase tracking-wider">
+            {/* <span className="text-xs font-semibold text-gray-500 uppercase tracking-wider">
               Pvt Ltd
-            </span>
+            </span> */}
           </Link>
 
           {/* Desktop Navigation */}
