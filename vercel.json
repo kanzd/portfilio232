@@ -1,7 +1,7 @@
 {
   "build": {
     "env": {
-      "NPM_CONFIG_FUND": "false"
+      "NPM_FLAGS": "--no-audit --no-fund"
     }
   }
 }
