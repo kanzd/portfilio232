@@ -1,7 +1,7 @@
 {
   "build": {
     "env": {
-      "NPM_FLAGS": "--no-audit --no-fund"
+      "NODE_VERSION": "22"
     }
   }
 }
