@@ -15,7 +15,7 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: 'ABC Pvt Ltd - Digital Solutions & Branding',
+  title: 'CHAIMADAM - Digital Solutions & Branding',
   description: 'We create stunning web experiences, powerful mobile apps, and memorable brands that drive growth and engagement.',
   keywords: 'web development, app development, branding, digital solutions',
 }

@@ -51,7 +51,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 pt-8 text-center">
           <p className="text-gray-400 text-sm">
-            © 2025 ABC Pvt Ltd. All rights reserved.
+            © 2025 CHAI MADAM All rights reserved.
           </p>
         </div>
       </div>

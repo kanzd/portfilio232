@@ -22,8 +22,8 @@ const botResponses: Record<string, string> = {
   'app development': 'We build native and cross-platform mobile applications for iOS and Android. What kind of app are you looking to develop?',
   'branding': 'Our branding services include logo design, brand strategy, and complete visual identity. Let\'s create something memorable for your business!',
   'pricing': 'Our pricing varies based on project scope and requirements. Would you like to schedule a free consultation to discuss your needs?',
-  'get started': 'Great! You can fill out our contact form or email us at info@abcpvtltd.com. We\'ll get back to you within 24 hours!',
-  'default': 'Thank you for your message! Our team will get back to you soon. You can also reach us at info@abcpvtltd.com or call us at +1 (555) 123-4567.',
+  'get started': 'Great! You can fill out our contact form or email us at info@chaimadam.com. We\'ll get back to you within 24 hours!',
+  'default': 'Thank you for your message! Our team will get back to you soon. You can also reach us at info@chaimadam.com or call us at +1 (555) 123-4567.',
 }
 
 export default function Chatbot() {

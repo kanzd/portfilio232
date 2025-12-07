@@ -38,7 +38,7 @@ export default function Contact() {
               </div>
               <div>
                 <h4 className="font-poppins text-xl font-bold mb-1">Address</h4>
-                <p className="text-gray-600">123 Business Street, City, Country</p>
+                <p className="text-gray-600">Krishna nagar,Delhi</p>
               </div>
             </div>
 
@@ -48,7 +48,7 @@ export default function Contact() {
               </div>
               <div>
                 <h4 className="font-poppins text-xl font-bold mb-1">Email</h4>
-                <p className="text-gray-600">info@abcpvtltd.com</p>
+                <p className="text-gray-600">info@chaimadam.com</p>
               </div>
             </div>
 
@@ -58,7 +58,8 @@ export default function Contact() {
               </div>
               <div>
                 <h4 className="font-poppins text-xl font-bold mb-1">Phone</h4>
-                <p className="text-gray-600">+1 (555) 123-4567</p>
+                <p className="text-gray-600">+918368789211</p>
+                <p className="text-gray-600">+918979626196</p>
               </div>
             </div>
           </motion.div>

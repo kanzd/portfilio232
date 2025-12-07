@@ -72,11 +72,11 @@ export default function Hero() {
             className="grid grid-cols-3 gap-8 max-w-2xl mx-auto"
           >
             <div>
-              <h3 className="font-poppins text-4xl md:text-5xl font-extrabold gradient-text mb-2">50+</h3>
+              <h3 className="font-poppins text-4xl md:text-5xl font-extrabold gradient-text mb-2">10+</h3>
               <p className="text-sm md:text-base text-gray-600 font-semibold">Projects Completed</p>
             </div>
             <div>
-              <h3 className="font-poppins text-4xl md:text-5xl font-extrabold gradient-text mb-2">30+</h3>
+              <h3 className="font-poppins text-4xl md:text-5xl font-extrabold gradient-text mb-2">5+</h3>
               <p className="text-sm md:text-base text-gray-600 font-semibold">Happy Clients</p>
             </div>
             <div>

@@ -40,7 +40,7 @@ export default function About() {
               About Us
             </span>
             <h2 className="font-poppins text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6">
-              Why Choose <span className="gradient-text">ABC Pvt Ltd</span>?
+              Why Choose <span className="gradient-text">CHAIMADAM</span>?
             </h2>
             <p className="text-lg text-gray-600 mb-10 leading-relaxed">
               We are a team of passionate designers, developers, and strategists dedicated to 
