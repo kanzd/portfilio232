@@ -1,5 +1,12 @@
 /** @type {import('next').NextConfig} */
+
+const repoName = "chaiMadam"; // 👉 replace with your repo name
+
 const nextConfig = {
+  output: "export",
+  basePath: `/${repoName}`,
+  assetPrefix: `/${repoName}/`,
+  
   images: {
     unoptimized: true,
     remotePatterns: [
@@ -13,6 +20,6 @@ const nextConfig = {
       },
     ],
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
